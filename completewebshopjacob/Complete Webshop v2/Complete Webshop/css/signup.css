@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+body {
+    background-color: #ffffff;
+    background-image: url("../img/login_croped.jpg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    
+   
+}
+main {
+   display: grid;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0 0 50px 0;
+    color: #120C28;
+}
+#logo img{
+    
+    height: 68px;
+    margin: 40% 0 0 20%;
+}
+
+
+#section_1 {
+    display: grid;
+    grid-column: 10 / 12;
+    margin: 200px 0 0 410px;    
+}
+ 
+
+#box_1:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=10); 
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+    font-size: 20px;    
+    width: 350px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 0 0 0 10px;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    border: solid 1.2px rgb(6, 0, 29, 0.4);
+    margin: 0 0 35px 0;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    align-content: center;
+}
+
+
+.registerbtn {
+    
+    padding: 5px;
+    background-color: #120C28;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0.9;
+    border: none;
+    display: flex;
+    font-size: 24px;
+    width: 110px;
+    height: 45px;
+    align-content: center;
+    margin: 35px 0 0 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+

@@ -1,0 +1,89 @@
+*{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+    body{
+        background-image: url(../img/headerfull.jpg);
+    }
+
+
+.container {
+    text-align: left;
+    align-content: center;
+    padding: 20px;
+    color: #fff;
+    width: 500px;
+    height: 730px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255); 
+    margin-left: 34%;
+}
+
+
+h2{
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+input {
+    padding: 10px 0;
+   
+}
+
+.container input {
+    width: 100%;
+    
+  }
+
+
+label {
+    padding: 20px;
+   
+  
+}
+
+.myForm{
+margin: 0 auto;
+width: 300px;
+
+
+}
+input {
+    
+    height:5px;
+    margin: 10px 0;
+    
+
+}
+
+.form-group label {
+    margin: 10px;
+}
+
+#planet, #distance, #price {
+  
+}
+
+#ticketLeft {
+
+}
+#travelDate {
+  
+}
+
+a {
+    
+   background-color: black;
+   padding: 5px;
+   text-decoration: none;
+   color: white;
+   font-weight: 800;
+   
+}
+
+a:hover {
+    background-color: #fff;
+    color: black;
+    font-weight: 800;
+}

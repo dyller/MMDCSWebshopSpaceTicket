@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="css/newproduct.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+       
+      
+            <h2 class="offset-3 col-6">Create a New Product</h2>
+            <div  class="offset-3 col-6">
+                <form id="myForm" class="myForm">
+                    <div class="form-group">
+                        <label for="planet">Destination:</label> <br>
+                        <input class="form-control" id="planet" >
+                    </div>
+                    <div class="form-group">
+                        <label for="travelDate">Date of Departure:</label> <br>
+                        <input type="datetime-local" class="form-control" id="travelDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="distance">Travel time (h):</label> <br>
+                        <input type="number"  class="form-control" id="distance">
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price (200k &euro;):</label> <br>
+                        <input type="number" class="form-control" id="price">
+                    </div>
+                    <div class="form-group">
+                        <label for="ticketLeft">Amount of tickets:</label> <br>
+                        <input type="number" class="form-control" id="ticketLeft">
+                    </div>
+                    <div class="form-group">
+                        <label for="urlPicture">Picture:</label> <br>
+                        <input class="form-control" id="urlPicture">
+                    </div>
+                    <div class="form-group">
+                        <label for="descrip">About pages(example: moon.html):</label> <br>
+                        <input class="form-control" id="descrip">
+                    </div>
+                        <a > Create a Ticket</a>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/tickets.js' type="text/javascript" > </script>
+</body>
+</html>
